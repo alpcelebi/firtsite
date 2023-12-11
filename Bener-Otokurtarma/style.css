@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400;500;700;800&family=Prompt&family=Roboto:wght@300;400;500;700;900&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    background-color: #222831;
+    font-family: 'Roboto', sanserif;
+}
+
+
+.header-text {
+    margin: 1em;
+    color: #FFD369;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.header-text:hover {
+    margin: 1em;
+    color: #EEEEEE;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.nav-container {
+    display: grid;
+    background-color: #393E46;
+    width: 100%;
+    height: 6em;
+}
+
+
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+
+}
+
+.nav-item {
+    color: #FFD369;
+    font-size: large;
+    text-decoration: none;
+    margin: .5em;
+    padding: .5em;
+}
+
+.nav-item:hover {
+    color: #EEEEEE;
+    font-size: large;
+    text-decoration: none;
+    margin: .5em;
+    padding: .5em;
+}
+
+.nav-col-1 {
+    width: 50%;
+
+}
+
+.nav-col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    align-content: center;
+    width: 50%;
+
+}
+
+
+.seciton-container {
+    display: grid;
+    height: 60em;
+    width: 100%;
+    margin: 2em;
+    overflow: hidden;
+    background-color: #393E46;
+
+}
+
+.section-header {
+    color: #FFD369;
+}
+
+.row {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.col {
+    width: 50%;
+    text-align: center;
+}
+
+.img-container {
+    margin: 1em;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.foto {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+#hemenAraButton {
+    color: #FFD369;
+    font-size: large;
+    text-decoration: none;
+    margin: .5em;
+    padding: .5em;
+    background-color: #393E46;
+    border-radius: 5px;
+
+}
+
+#hemenAraButton:hover {
+    color: #222831;
+    font-size: large;
+    text-decoration: none;
+    margin: .5em;
+    padding: .5em;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+
+}
+
+.gallery {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: start;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: .5em;
+    padding: .5em;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+}
+
+.section-text {
+    margin-bottom: 2em;
+    color: #FFD369;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-text-1 {
+    font-size: x-large;
+    color: #FFD369;
+    text-align: center;
+}
+
+.row-2 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.col-1 {
+
+    margin: .5em;
+    width: 50%;
+    padding: .5em;
+}
+
+.col-2 {
+    margin: 1em;
+    padding: 1em;
+    width: 50%;
+    overflow: hidden;
+}
+
+.section-container-2 {
+    display: grid;
+    height: 20em;
+    width: 100%;
+    margin: 1em;
+    overflow: hidden;
+    background-color: #393E46;
+
+}
+
+
+
+
+.footer-row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393E46;
+    /* Varsa arka plan rengini ayarlayabilirsiniz */
+    color: white;
+    /* Varsa metin rengini ayarlayabilirsiniz */
+    padding: 2em;
+
+    
+}
+
+.footer-col-1 {
+    width: 33%;
+    margin: .5em;
+    padding: .5em;
+    height: fit-content;
+}
+
+.footer-text {
+    color: #FFD369;
+    font-size: large;
+}
+
+.footer-col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: end;
+    width: 33%;
+    margin: right;
+    padding: .2em;
+    height: fit-content;
+}
+
+.footer-col-3 {
+    width: 33%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 1em;
+    padding: 1em;
+    color: #FFD369;
+    font-size: large;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EEEEEE;
+    font-size: x-large;
+    transition: 0.5s;
+}
+
+.main {
+    margin: 1em;
+    padding: 1em;
+
+}
+
+.section-header {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.list {
+    margin: .5em;
+    padding: .1em;
+
+}
+
+.list-item {
+    font-size: large;
+    color: #FFD369;
+}
+
+.dropdown {
+    display: none;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: end;
+    align-content: center;
+    width: 100%;
+    display: none;
+}
+
+.dropbtn {
+    color: #393E46;
+    font-size: large;
+    text-decoration: none;
+    margin: .5em;
+    padding: .5em;
+    background-color: #FFD369;
+    border-radius: 5px;
+    width: 5em;
+    height: 3em;
+}
+
+.dropbtn:hover {
+    color: #393E46;
+    font-size: large;
+    text-decoration: none;
+    margin: .5em;
+    padding: .5em;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.btn {
+    display: none;
+
+}
+
+.btn button {
+    width: 5em;
+    height: 3em;
+}
+
+.res-container {
+    display: none;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .nav-container {
+
+        place-items: center;
+        height: 30em;
+    }
+
+    .nav-col-1 {
+        width: 100%;
+    }
+
+    .nav-col-2 {
+        display: none;
+
+    }
+
+    .seciton-container {
+        display: grid;
+        grid-template-columns: repeat(2, 5fr);
+
+
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+
+    }
+
+    .img-container {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section-container-2 {
+
+        height: 100vh;
+        width: auto;
+
+    }
+
+    .row-2 {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+
+    }
+
+    .col-1 {
+
+        margin: .1em;
+        width: 100%;
+        padding: .1em;
+    }
+
+    .footer-row {
+
+        flex-direction: column;
+
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #FFD369;
+        min-width: 160px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-content a {
+        color: #393E46;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .res-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
